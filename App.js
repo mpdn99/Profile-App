@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
     height: 35,
     width: 120,
     paddingTop: 5,
-    shadowColor: POLO_BLUE_COLOR,
+    shadowColor: '#000',
     shadowOffset: {
 	    width: 0,
 	    height: 12,
@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
     height: 35,
     width: 60,
     paddingTop: 5,
-    shadowColor: POLO_BLUE_COLOR,
+    shadowColor: '#000',
     shadowOffset: {
 	    width: 0,
 	    height: 12,
