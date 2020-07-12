@@ -3,6 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Entypo } from '@expo/vector-icons';
+import { MaterialIcons } from '@expo/vector-icons';
 
 export default function App() {
   return (
@@ -54,6 +55,11 @@ export default function App() {
           })}
         </View>      
       </ScrollView>
+      <View style={styles.bar }>
+        <Ionicons name="md-funnel" size={24} color="black" />
+        <Ionicons name="ios-add-circle-outline" size={24} color="black" />
+        <MaterialIcons name="person-outline" size={24} color="black" />
+      </View>
     </View>
   );
 }
@@ -82,7 +88,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent:'space-between',
     marginTop: 25,
-    marginBottom: 20
+    marginBottom: 10
   },
   avatar: {
     height: 120,
@@ -139,6 +145,11 @@ const styles = StyleSheet.create({
     width: 150,
     borderRadius: 20,
     margin: 10
+  },
+  bar: {
+    marginTop: 15,
+    flexDirection:'row',
+    justifyContent:'space-around'
   }
 });
 
