@@ -24,7 +24,7 @@ export default function App() {
               <Text style={{textAlign:'center', fontWeight:'bold', color:'white', fontSize: 15}}>Follow</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.button2} onPress={() => alert('message sended')}>
-              <Ionicons name="md-send" size={24} color="black" style={{alignSelf:'center'}} />
+              <Ionicons name="md-send" size={24} color="white" style={{alignSelf:'center'}} />
             </TouchableOpacity>
           </View>
         </View>
